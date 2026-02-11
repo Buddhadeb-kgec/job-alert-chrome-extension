@@ -1,33 +1,29 @@
 # Job Alert Chrome Extension
 
-A simple Chrome extension that shows latest internships and job opportunities inside the browser popup.
+A simple Chrome extension that shows internships and job opportunities.
 
-## Features
-- Fetches real job data from online JSON
-- Save jobs for later using Chrome storage
+## 🚀 Features
+- Loads job data from online JSON
+- Save jobs for later (Chrome storage)
 - Remove saved jobs
-- Clean and minimal UI
-- Beginner-friendly but real-world logic
+- Clean and responsive UI
+- Live data fetch from GitHub host
 
-## Tech Stack
+## 💻 Tech Stack
 - HTML
 - CSS
 - JavaScript
-- Chrome Extension Manifest v3
-- GitHub hosted JSON API
+- Chrome Extension Manifest V3
+- GitHub hosted JSON data
 
-## How to Run Locally
-1. Download this repository
-2. Open Chrome → chrome://extensions
+## 📌 Installation (Local)
+1. Download or clone the repo
+2. Open Chrome → `chrome://extensions`
 3. Enable Developer Mode
-4. Click "Load unpacked"
+4. Click “Load unpacked”
 5. Select the project folder
 
-## Future Improvements
-- Job filters (location, role, experience)
-- Real public job API integration
-- Chrome Web Store publishing
-
----
-
-Built as a learning project to understand real-world browser extension development.
+## 📈 Future Improvements
+- Add job filters (location, role, salary)
+- Connect to real job API
+- Publish on Chrome Web Store
