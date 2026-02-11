@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Job Alerts</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 280px;
+      padding: 10px;
+      background: #f5f7fb;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    button {
+      background: #4f46e5;
+      color: white;
+      border: none;
+      padding: 6px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    button:hover {
+      background: #4338ca;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-top: 10px;
+    }
+
+    li {
+      background: white;
+      margin-bottom: 8px;
+      padding: 8px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      font-size: 13px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #111827;
+      font-weight: 500;
+    }
+
+    .save-btn {
+      float: right;
+      font-size: 11px;
+      padding: 4px 6px;
+    }
+
+    h3 {
+      margin-top: 12px;
+      font-size: 14px;
+      color: #374151;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>🚀 Job Alerts</h2>
+
+  <button id="loadJobs">Load Latest Jobs</button>
+
+  <ul id="jobList"></ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>

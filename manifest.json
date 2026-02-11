@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Internship & Job Alert",
+  "version": "1.0",
+  "description": "Shows latest internships and job alerts.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon 64.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon 64.png",
+    "128": "icon128.png"
+  }
+}
